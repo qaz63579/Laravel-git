@@ -23,18 +23,15 @@ class HomeController extends Controller
     {
         return view('home');
     }
-<<<<<<< HEAD
+
     public function info()
     {
         phpinfo();
         return;
     }
-}
-=======
 
     public function byebye()
     {
         return view('home');
     }
 }
->>>>>>> Test
